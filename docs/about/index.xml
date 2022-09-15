@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on Modelo Blog POAT &amp; Artigos</title>
-    <link>https://example.com/about/</link>
+    <link>https://nupec.github.io/blogdownPoat/about/</link>
     <description>Recent content in Abouts on Modelo Blog POAT &amp; Artigos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 18 Jul 2020 09:00:00 +1000</lastBuildDate><atom:link href="https://example.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Jul 2020 09:00:00 +1000</lastBuildDate><atom:link href="https://nupec.github.io/blogdownPoat/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About the Journal</title>
-      <link>https://example.com/about/journal/</link>
+      <link>https://nupec.github.io/blogdownPoat/about/journal/</link>
       <pubDate>Sat, 18 Jul 2020 09:00:00 +1000</pubDate>
       
-      <guid>https://example.com/about/journal/</guid>
+      <guid>https://nupec.github.io/blogdownPoat/about/journal/</guid>
       <description>Basic information about the journal</description>
     </item>
     
     <item>
       <title>Editorial Team</title>
-      <link>https://example.com/about/editorial-team/</link>
+      <link>https://nupec.github.io/blogdownPoat/about/editorial-team/</link>
       <pubDate>Sat, 18 Jul 2020 09:00:00 +1000</pubDate>
       
-      <guid>https://example.com/about/editorial-team/</guid>
+      <guid>https://nupec.github.io/blogdownPoat/about/editorial-team/</guid>
       <description>Names and details of editorial board members</description>
     </item>
     
     <item>
       <title>Submissions</title>
-      <link>https://example.com/about/submissions/</link>
+      <link>https://nupec.github.io/blogdownPoat/about/submissions/</link>
       <pubDate>Sat, 18 Jul 2020 09:00:00 +1000</pubDate>
       
-      <guid>https://example.com/about/submissions/</guid>
+      <guid>https://nupec.github.io/blogdownPoat/about/submissions/</guid>
       <description>Information on submissions</description>
     </item>
     

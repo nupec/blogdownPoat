@@ -1,5 +1,5 @@
 title: Modelo Blog POAT & Artigos
-baseURL: https://example.com/
+baseURL: https://nupec.github.io/blogdownPoat/
 languageCode: en-US
 theme: health-science-journal
 publishDir: docs/
