@@ -167,11 +167,11 @@ menu:
       url: about/journal
       weight: 6
     - name: Equipe de pesquisa
-      parent: About
+      parent: Sobre
       url: about/editorial-team
       weight: 7
     - name: Contatos
-      parent: About
+      parent: Sobre
       url: contact
       weight: 8
 privacy:

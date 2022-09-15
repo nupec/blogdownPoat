@@ -1,7 +1,7 @@
 ---
 Date: "2020-07-18T09:00:00+10:00"
-Summary: Basic information about the journal
-Title: About the Journal
+Summary: Informações básicas sobre nosso blog
+Title: Sobre o blog
 canonicalurl: ""
 ---
 
