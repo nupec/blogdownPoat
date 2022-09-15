@@ -10,7 +10,7 @@
       <issn publication-format="electronic">2652-1768</issn>
     </journal-meta>
     <article-meta>
-      <article-id pub-id-type="doi">10.xxxx/abcd</article-id>
+      <article-id pub-id-type="github">https://nupec.github.io/bookPoat/</article-id>
       <article-version article-version-type="VoR" vocab="JAV" vocab-identifier="http://www.niso.org/publications/rp/RP-8-2008.pdf" vocab-term="version-of-record">Version of Record</article-version>
       <title-group>
         <article-title>Guide to using the Health Sciences Journal Theme</article-title>
