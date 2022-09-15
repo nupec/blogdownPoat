@@ -1,4 +1,4 @@
-title: Modelo Blog POAT & Artigos
+title: Modelo Blog POAT e Relatórios
 baseURL: https://nupec.github.io/blogdownPoat/
 languageCode: en-US
 theme: health-science-journal
@@ -50,7 +50,7 @@ params:
     name: Episteme Health Inc.
     state: Victoria
   publisherjournalabbreviation: HSJT
-  socialdescription: Health Sciences Journal Description
+  socialdescription: O objetivo desta jornada
   socialimage: img/twittercard.jpg
   socialimagealt: Health Sciences Journal Logo
   subjects:
@@ -150,27 +150,27 @@ taxonomies:
   keyword: keywords
 menu:
   main:
-    - name: Articles
+    - name: Relatórios
       url: current
       weight: 2
-    - name: Archives
+    - name: Arquivos
       url: article
       weight: 3
-    - name: Submit
+    - name: Atualizações
       url: about/submissions
       weight: 4
     - hasChildren: yes
-      name: About
+      name: Sobre
       weight: 5
-    - name: About the Journal
-      parent: About
+    - name: Sobre o blog
+      parent: Sobre
       url: about/journal
       weight: 6
-    - name: Editorial Team
+    - name: Equipe de pesquisa
       parent: About
       url: about/editorial-team
       weight: 7
-    - name: Contact
+    - name: Contatos
       parent: About
       url: contact
       weight: 8
