@@ -1,0 +1,189 @@
+title: Modelo Blog POAT & Artigos
+baseURL: https://example.com/
+languageCode: en-US
+theme: health-science-journal
+publishDir: docs/
+
+params:
+  abbreviatedTitle: Health Sci. J. Theme
+  crossmark_enabled: no
+  currentissuepath: ''
+  customblocks:
+    - content: Website footer custom block.
+      name: Custom Block
+    - content: This theme is adapted from the [Health Sciences Theme](https://github.com/pkp/healthsciences)
+        by the Public Knowledge Project under a GPL license. It is released under
+        a GPL3 license.
+      name: License
+    - content: The only user information collected from this website is in the form
+        of log files generated the site's [hosting provider](https://www.netlify.com/privacy/).
+      name: Privacy Notice
+    - content: Hugo theme development by [Shaun Khoo](https://orcid.org/0000-0002-0972-3788),
+        at [Episteme Health Inc](https://about.epistemehealth.com).
+      name: Contact Us
+  description: The Health Sciences Journal Theme is a Hugo port of a theme developed
+    by the Public Knowledge Project for Open Journal Systems. It is adapted under
+    a GPL license.
+  eISSN: XXXX-XXXX
+  favicon: img/favicon.png
+  footercontent: Footer content.
+  home: Home
+  homepageimagealt: Neurons artwork homepage image. CC0 Geralt/Pixabay id-582054
+  homepageimagefallback: img/homepage_960w.jpg
+  homepageimageset:
+    - img: img/homepage_480w.jpg
+      maxwidth: 800px
+      width: 480w
+    - img: img/homepage_960w.jpg
+      maxwidth: 1440px
+      width: 960w
+    - img: img/homepage_1920w.jpg
+      maxwidth: ''
+      width: 1920w
+  journalDOI: 10.xxxx/demo
+  lenslogo: img/lens-journal-logo.png
+  mirrorfor: ''
+  printISSN: XXXX-XXXX
+  publisher:
+    city: Melbourne
+    country: Australia
+    name: Episteme Health Inc.
+    state: Victoria
+  publisherjournalabbreviation: HSJT
+  socialdescription: Health Sciences Journal Description
+  socialimage: img/twittercard.jpg
+  socialimagealt: Health Sciences Journal Logo
+  subjects:
+    - Subject1
+    - Subject2
+  twittercard: summary_large_image
+  twitterhandle: '@epistemehealth'
+  useCDN: no
+mediaTypes:
+  text/bib:
+    suffixes: bib
+  text/enw:
+    suffixes: enw
+  text/latex:
+    suffixes: tex
+  text/ris:
+    suffixes: ris
+outputFormats:
+  customlens:
+    baseName: js/customlens
+    isPlainText: yes
+    mediaType: application/javascript
+    path: ''
+  defaultcss:
+    baseName: css/default
+    isPlainText: yes
+    mediaType: text/css
+    path: ''
+  exportbib:
+    baseName: export-citation
+    isPlainText: yes
+    mediaType: text/bib
+    path: ''
+  exportcsljson:
+    baseName: export-citation
+    isPlainText: yes
+    mediaType: application/json
+    path: ''
+  exportenw:
+    baseName: export-citation
+    isPlainText: yes
+    mediaType: text/enw
+    path: ''
+  exportris:
+    baseName: export-citation
+    isPlainText: yes
+    mediaType: text/ris
+    path: ''
+  galleyHTML:
+    baseName: view-html
+    isPlainText: yes
+    mediaType: text/html
+    path: ''
+  galleyPDF:
+    baseName: view-pdf
+    isPlainText: yes
+    mediaType: text/html
+    path: ''
+  galleyXML:
+    baseName: view-lens
+    isPlainText: yes
+    mediaType: text/html
+    path: ''
+  htmlgalleyfonts:
+    baseName: css/htmlgalleyfonts
+    isPlainText: yes
+    mediaType: text/css
+    path: ''
+  lensfonts:
+    baseName: css/lensfonts
+    isPlainText: yes
+    mediaType: text/css
+    path: ''
+  localfonts:
+    baseName: css/localfonts
+    isPlainText: yes
+    mediaType: text/css
+    path: ''
+outputs:
+  home:
+    - HTML
+    - customlens
+    - defaultcss
+    - localfonts
+    - lensfonts
+    - htmlgalleyfonts
+  page:
+    - html
+    - galleyPDF
+    - galleyXML
+    - galleyHTML
+    - exportris
+    - exportenw
+    - exportbib
+    - exportcsljson
+taxonomies:
+  keyword: keywords
+menu:
+  main:
+    - name: Articles
+      url: current
+      weight: 2
+    - name: Archives
+      url: article
+      weight: 3
+    - name: Submit
+      url: about/submissions
+      weight: 4
+    - hasChildren: yes
+      name: About
+      weight: 5
+    - name: About the Journal
+      parent: About
+      url: about/journal
+      weight: 6
+    - name: Editorial Team
+      parent: About
+      url: about/editorial-team
+      weight: 7
+    - name: Contact
+      parent: About
+      url: contact
+      weight: 8
+privacy:
+  disqus:
+    disable: yes
+  googleAnalytics:
+    disable: yes
+  instagram:
+    disable: yes
+  twitter:
+    disable: yes
+  vimeo:
+    disable: yes
+  youtube:
+    disable: yes

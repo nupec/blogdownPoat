@@ -1,0 +1,17 @@
+TY  - JOUR
+AU  - One, Author
+PY  - 2020
+Y1  - 2020/07/18
+TI  - Guide to using the Health Sciences Journal Theme
+JF  - Modelo Blog POAT & Artigos
+JA  - Health Sci. J. Theme
+VL  - 1
+IS  - 1
+DO  - 10.xxxx/abcd
+UR  - https://example.com/article/1/1/
+SP  - 1
+LP  - 2
+SN  - XXXX-XXXX
+SN  - XXXX-XXXX (Print)
+AB  - The Health Sciences Journal Theme is intended to replicate the front end of Open Journal Systems and display content for readers. Journal information pages are contained in the *about* and *contact* directories.The *current* directory will build a contents page for the journal's current issue, which can be set in config.toml. Journal issues should be in separate directories within *article*. For each article, create a .md file for the article containing the metadata for the article and links to the relevant galley files. JATS XML files will be rendered using a modified version of eLife Lens Viewer.
+ER  -

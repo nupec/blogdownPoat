@@ -1,0 +1,31 @@
+[
+	{
+		"id": "MBPOATA1One2020",
+		"type": "article-journal",
+		"abstract": "The Health Sciences Journal Theme is intended to replicate the front end of Open Journal Systems and display content for readers. Journal information pages are contained in the *about* and *contact* directories.The *current* directory will build a contents page for the journal's current issue, which can be set in config.toml. Journal issues should be in separate directories within *article*. For each article, create a .md file for the article containing the metadata for the article and links to the relevant galley files. JATS XML files will be rendered using a modified version of eLife Lens Viewer.",
+		"container-title": "Modelo Blog POAT & Artigos",
+		"DOI": "10.xxxx/abcd",
+		"ISSN": "XXXX-XXXX",
+		"issue": "1",
+		"journalAbbreviation": "Health Sci. J. Theme",
+		"page": "1-2",
+		"title": "Guide to using the Health Sciences Journal Theme",
+		"volume": "1",
+		"author": [
+			{
+				"family": "One",
+				"given": "Author"
+			}
+
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					"7",
+					"18"
+				]
+			]
+		}
+	}
+]
