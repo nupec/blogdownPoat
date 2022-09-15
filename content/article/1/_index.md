@@ -1,8 +1,8 @@
 ---
-canonicalurl: ""
+canonicalurl: "https://nupec.github.io/bookPoat/"
 cascade:
   issue: "1"
-  issuedate: "2020-01-01T09:00:00+10:00"
+  issuedate: "2022-09-15T09:00:00+10:00"
   volume: "1"
 description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit,
   vestibulum ut, placerat ac, adipiscing vitae, felis. Curabitur dictum gravida mauris.
@@ -15,5 +15,5 @@ description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus 
   eu, pulvinar at, mollis ac, nulla. Curabitur auctor semper nulla. Donec varius orci
   eget risus. Duis nibh mi, congue eu, accumsan eleifend, sagittis quis, diam. Duis
   eget orci sit amet orci dignissim rutrum.
-title: The Health Sciences Issue
+title: Breve descrição sobre o blog
 ---
