@@ -1,0 +1,14 @@
+---
+title: Relatório Book Poat
+author: Universidade de Aveiro
+date: '2022-09-21'
+slug: []
+categories:
+  - R
+tags:
+  - R Markdown
+---
+
+# BookPoat Model
+
+Acesse aqui o [Book](https//nupec.github.io/bookPoat/)

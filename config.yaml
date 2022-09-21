@@ -5,7 +5,7 @@ theme: health-science-journal
 publishDir: docs/
 
 params:
-  abbreviatedTitle: Health Sci. J. Theme
+  abbreviatedTitle: Blogdown POAT
   crossmark_enabled: no
   currentissuepath: ''
   customblocks:
@@ -187,3 +187,8 @@ privacy:
     disable: yes
   youtube:
     disable: yes
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
